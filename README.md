@@ -1,1 +1,2 @@
-# Graph-Traversal-Techniques
+# Graph-Spanning-Tree-Traversal-Techniques
+
