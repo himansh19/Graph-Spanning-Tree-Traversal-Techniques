@@ -49,15 +49,8 @@ class KGraph:
             print("%d - %d: %d" % (u+1, v+1, weight))
 
 g = KGraph(6)
-g.add_edge(1, 2, 10)
-g.add_edge(1, 5, 45)
-g.add_edge(1, 4, 30)
-g.add_edge(2,3, 50)
-g.add_edge(2, 5, 40)
-g.add_edge(2, 6, 25)
-g.add_edge( 3,5, 35)
-g.add_edge(3, 6, 15)
-g.add_edge(4, 6, 20)
-g.add_edge(5, 6, 55)
+g.add_edge(1, 2, 10); g.add_edge(1, 5, 45); g.add_edge(1, 4, 30)
+g.add_edge(2,3, 50); g.add_edge(2, 5, 40); g.add_edge(2, 6, 25)
+g.add_edge( 3,5, 35); g.add_edge(3, 6, 15); g.add_edge(4, 6, 20); g.add_edge(5, 6, 55)
 
 g.kruskal_algo()
